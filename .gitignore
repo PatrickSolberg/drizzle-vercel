@@ -27,9 +27,15 @@ yarn-error.log*
 # local env files
 .env*.local
 
+# PLS FIX AUTO IGNORE .ENV PLS!
+.env
+
 # vercel
 .vercel
 
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Drizzle
+/migrations-folder
